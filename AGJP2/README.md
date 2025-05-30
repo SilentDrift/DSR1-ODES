@@ -253,4 +253,4 @@ self.model = AutoModelForCausalLM.from_pretrained(
 ✅ **Both CLI and API interfaces**  
 ✅ **Configurable and extensible**  
 
-Ready to deploy! 🚀 
+https://huggingface.co/deepseek-ai/DeepSeek-R1-0528
