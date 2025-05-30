@@ -1,0 +1,22 @@
+name: deepseek-ode
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=2.3.0
+  - pytorch-cuda=12.1
+  - pip
+  - pip:
+      - transformers>=4.46.0
+      - accelerate>=0.30.0
+      - bitsandbytes             # 4‑bit & 8‑bit quantisation (works on Win 11)
+      - safetensors
+      - huggingface-hub
+      - fastapi
+      - uvicorn[standard]
+      - pydantic
+      - rich
+      - pyyaml 

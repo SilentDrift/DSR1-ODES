@@ -1,0 +1,11 @@
+transformers>=4.46
+accelerate>=0.30
+bitsandbytes
+safetensors
+torch>=2.3
+huggingface-hub
+fastapi
+uvicorn[standard]
+pydantic
+rich
+pyyaml 
